@@ -6,4 +6,4 @@ A sample ML project used to demonstrate Git-based version control workflows in a
 
 ```bash
 pip install -r requirements.txt
-python src/train.py
+python src/train.pyVersion B
