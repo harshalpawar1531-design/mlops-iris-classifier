@@ -45,7 +45,7 @@ def main():
 
     acc, report = evaluate_model(model, X_test, y_test)
 
-    print(f"Model Accuracy: {acc:.4f}")
+    print(f"Accuracy: {acc:.4f}")
     print(report)
 
     joblib.dump(model, "models/iris_model.joblib")
